@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"pid_v_dc\startup_stm32f103xb.o"
+"pid_v_dc\main.o"
+"pid_v_dc\stm32f1xx_it.o"
+"pid_v_dc\stm32f1xx_hal_msp.o"
+"pid_v_dc\stm32f1xx_hal_gpio_ex.o"
+"pid_v_dc\stm32f1xx_hal_tim.o"
+"pid_v_dc\stm32f1xx_hal_tim_ex.o"
+"pid_v_dc\stm32f1xx_hal.o"
+"pid_v_dc\stm32f1xx_hal_rcc.o"
+"pid_v_dc\stm32f1xx_hal_rcc_ex.o"
+"pid_v_dc\stm32f1xx_hal_gpio.o"
+"pid_v_dc\stm32f1xx_hal_dma.o"
+"pid_v_dc\stm32f1xx_hal_cortex.o"
+"pid_v_dc\stm32f1xx_hal_pwr.o"
+"pid_v_dc\stm32f1xx_hal_flash.o"
+"pid_v_dc\stm32f1xx_hal_flash_ex.o"
+"pid_v_dc\stm32f1xx_hal_exti.o"
+"pid_v_dc\stm32f1xx_hal_uart.o"
+"pid_v_dc\system_stm32f1xx.o"
+--strict --scatter "Pid_V_DC\Pid_V_DC.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Pid_V_DC.map" -o Pid_V_DC\Pid_V_DC.axf

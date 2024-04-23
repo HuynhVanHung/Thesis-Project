@@ -1,0 +1,24 @@
+Expression	Value	Location	Type	
+pid_2.Setpoint	3.76800003E+1	0x2000018C	float	
+pid_1.Setpoint	3.76800003E+1	0x20000168	float	
+pid_1.Ki	2.9999999322E-2	0x20000160	float	
+pid_1.Kd	5.99999986E-2	0x20000164	float	
+pid_1.Kp	1.2999999522	0x2000015C	float	
+EncoderCount_1	9	0x200001B4	short	
+EncoderCount_2	10	0x20000204	short	
+Velocity_1	3.6000003811E+1	0x20000200	float	
+Velocity_2	40.0	0x20000250	float	
+pid_2.Kp	1.39999997	0x20000180	float	
+pid_2.Ki	2.9999999322E-2	0x20000184	float	
+pid_2.Kd	5.99999986E-2	0x20000188	float	
+i	Error (col 1): Cannot take address. i			
+a	Error (col 1): Unknown or ambiguous symbol. a			
+pid_2.CurrentRPM	40.0	0x200001A0	float	
+pid_1.CurrentRPM	3.6000003811E+1	0x2000017C	float	
+pid_2.Kp	1.39999997	0x20000180	float	
+pid_2.Ki	2.9999999322E-2	0x20000184	float	
+pid_2.Kd	5.99999986E-2	0x20000188	float	
+data_RX	<array>"V0.4,T0"	0x20000150	uint8_t[12]	
+V_Tangent	4.00000006E-1	0x200001AC	float	
+theta	0.0	0x200001B0	float	
+str	<array>"V0.4,T0"	0x20000144	char[12]	

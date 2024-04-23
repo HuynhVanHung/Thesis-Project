@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\arm\bin\armstlink2.dll" 
+
+"D:\HK9\DATN_2023_2024\FINAL\CODE_THESIS_PID\EWARM\Pid_V_DC\Exe\Pid_V_DC.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\arm\config\debugger\ST\STM32F1xx.dmac" 
+
+--flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\arm\config\flashloader\ST\FlashSTM32F10xx8.board" 
+
+
+
+
